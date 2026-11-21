@@ -18,3 +18,7 @@ Git 与 GitHub 连通性测试仓库。
 ## 说明
 
 首次提交由本地通过 SSH 推送，用于确认读（clone / fetch）与写（push）双向通路均正常。
+
+## 提交签名
+
+本仓库启用 SSH 方式签名提交，签名密钥与认证密钥为同一把 ed25519 公钥，对应的 GitHub 侧需登记为 **Signing Key** 后，提交才会显示 Verified 徽章。
